@@ -1,0 +1,104 @@
+##############################################
+weka.classifiers.bayes.NaiveBayes
+##############################################
+
+Correctly Classified Instances         716               58.9786 %
+Incorrectly Classified Instances       498               41.0214 %
+Kappa statistic                          0.127 
+Mean absolute error                      0.4214
+Root mean squared error                  0.5934
+Relative absolute error                 84.2852 %
+Root relative squared error            118.6807 %
+Total Number of Instances             1214     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.569    0.184    0.971      0.569    0.717      0.215    0.757     0.966     0
+                 0.816    0.431    0.149      0.816    0.252      0.215    0.757     0.220     1
+Weighted Avg.    0.590    0.205    0.901      0.590    0.678      0.215    0.757     0.903     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 632 479 |   a = 0
+  19  84 |   b = 1
+
+##############################################
+weka.classifiers.functions.LibSVM
+##############################################
+
+Correctly Classified Instances         892               73.4761 %
+Incorrectly Classified Instances       322               26.5239 %
+Kappa statistic                          0.2166
+Mean absolute error                      0.2652
+Root mean squared error                  0.515 
+Relative absolute error                 53.0478 %
+Root relative squared error            103.0027 %
+Total Number of Instances             1214     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.734    0.262    0.968      0.734    0.835      0.286    0.736     0.954     0
+                 0.738    0.266    0.205      0.738    0.321      0.286    0.736     0.173     1
+Weighted Avg.    0.735    0.262    0.903      0.735    0.792      0.286    0.736     0.888     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 816 295 |   a = 0
+  27  76 |   b = 1
+
+##############################################
+weka.classifiers.functions.MultilayerPerceptron
+##############################################
+
+Correctly Classified Instances        1054               86.8204 %
+Incorrectly Classified Instances       160               13.1796 %
+Kappa statistic                          0.2445
+Mean absolute error                      0.1316
+Root mean squared error                  0.3458
+Relative absolute error                 26.3142 %
+Root relative squared error             69.1565 %
+Total Number of Instances             1214     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.915    0.641    0.939      0.915    0.927      0.247    0.775     0.971     0
+                 0.359    0.085    0.282      0.359    0.316      0.247    0.775     0.241     1
+Weighted Avg.    0.868    0.594    0.883      0.868    0.875      0.247    0.775     0.909     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1017   94 |    a = 0
+   66   37 |    b = 1
+
+##############################################
+weka.classifiers.functions.Logistic
+##############################################
+
+Correctly Classified Instances         910               74.9588 %
+Incorrectly Classified Instances       304               25.0412 %
+Kappa statistic                          0.2093
+Mean absolute error                      0.3108
+Root mean squared error                  0.4091
+Relative absolute error                 62.1511 %
+Root relative squared error             81.8137 %
+Total Number of Instances             1214     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.757    0.330    0.961      0.757    0.847      0.265    0.785     0.972     0
+                 0.670    0.243    0.204      0.670    0.312      0.265    0.785     0.258     1
+Weighted Avg.    0.750    0.323    0.897      0.750    0.802      0.265    0.785     0.912     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 841 270 |   a = 0
+  34  69 |   b = 1
+
