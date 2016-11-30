@@ -74,7 +74,7 @@ public class FuV2ClassificationUpdate {
 		// Generalized Linear Regression
 		Logistic logistic = new Logistic();
 
-		Classifier[] models = { clsNaive, clsSVM, mlp, /* j48, ibk, */logistic };
+		Classifier[] models = { clsNaive, clsSVM, mlp, j48, ibk, logistic };
 
 		// Get result
 		for (int i = 0; i < allInstance.length; i++) {

@@ -63,6 +63,8 @@ public class FuV2SplitData {
 			writer.writeAll(dropListChunks.get(i));
 			writer.close();
 		}
+		
+		System.out.println("Done");
 	}
 
 	public static <T> List<List<T>> chunk(List<T> input, int chunkSize) {
